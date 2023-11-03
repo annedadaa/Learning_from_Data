@@ -1,6 +1,6 @@
-### Offensive Language Identification
+## Offensive Language Identification
 
-#### To get started
+### To get started
 
 Clone this repository
 
@@ -13,7 +13,7 @@ You should run the all scripts from the root directory
 cd Offensive_Language_Identification
 ```
 
-#### Models training
+### Models training
 
 Scripts for training different models are in the _train_predict_ folder. To run (for example, Language Models) training script, use the command line below:
 ```
@@ -28,9 +28,9 @@ To save predictions on test set you should specify path to the test set:
 CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py --test_file dataset/preprocessed_data/test.tsv
 ```
 
-For more detailed information check README file in the _train_predict_ folder.
+For more detailed information on training please check README file in the _train_predict_ folder.
 
-#### Models evaluation
+### Models evaluation
  
 To evaluate different models using saved outputs use the command lines below:
 
