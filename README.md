@@ -13,6 +13,11 @@ You should run the all scripts from the root directory
 cd Offensive_Language_Identification
 ```
 
+Install all the necessary libraries
+```
+pip install -r requirements.txt 
+```
+
 ### Training
 
 Scripts for training different models are in the _train_predict_ folder. To run (for example, Language Models) training script, use the command line below:
