@@ -1,9 +1,14 @@
 ### Offensive Language Identification
 
-How to run the code:
+#### Get started
 
-1) Clone this repository
-2) You should run the all scripts the root directory
+Clone this repository
+
+```
+git clone 
+```
+
+You should run the all scripts from the root directory
 
 To train models:
 ```
