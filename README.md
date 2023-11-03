@@ -13,14 +13,17 @@ You should run the all scripts from the root directory
 cd Offensive_Language_Identification
 ```
 
-To train models:
+#### Train models
+
+Scripts for training different models are in _train_predict_ folder. To run (for example, LMs) training script, use the command line below:
 ```
 python3 evaluate/evaluate.py --pred output/SVM/svm_preds.tsv --cf
 ```
 
 #### Models evaluation
  
-To evaluate different models using saved outputs use the command lines bellow. 
+To evaluate different models using saved outputs use the command lines below:
+
 Parameters:
 - _--pred_: path to saved output file with predictions
 - _--cf_ : creates confusion matrix
