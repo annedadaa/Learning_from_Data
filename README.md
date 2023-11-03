@@ -29,6 +29,7 @@ CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py --test_file datas
 ```
 
 For more detailed information on training please check README file in the _train_predict_ folder.
+[I'm a relative reference to a repository file](../[blob/main/train_predict/README.md])
 
 ### Models evaluation
  
