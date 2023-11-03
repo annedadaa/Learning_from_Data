@@ -1,6 +1,6 @@
 ### Offensive Language Identification
 
-#### Get started
+#### To get started
 
 Clone this repository
 
