@@ -26,7 +26,7 @@ unzip glove.twitter.27B.zip
 ```
 Run the training script
 ```
-python3 train_predict/LSTM.py --model svm --vect tfidf
+python3 train_predict/LSTM.py
 ```
 **Additional command line arguments**
 
