@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""Language Models evaluation."""
+"""Models evaluation."""
 
 # Import all necessary libraries.
 import pandas as pd
