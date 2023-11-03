@@ -24,7 +24,7 @@ Scripts for training different models are in the _train_predict_ folder. To run 
 ```
 python3 train_predict/LanguageModels.py
 ```
-Because Language Models are trained on GPU, you have to specify CUDA IDs as follows:
+Because Language Models are trained on GPU using pytorch, you have to specify CUDA IDs as follows:
 ```
 CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py
 ```
