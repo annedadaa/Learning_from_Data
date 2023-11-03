@@ -12,7 +12,11 @@ python3 evaluate/evaluate.py --pred output/SVM/svm_preds.tsv --cf
 
 #### Models evaluation
  
-To evaluate different models using saved outputs use the command lines bellow. _--pred_ argument is the path to saved output with predictions, _--cf_ argument creates confusion matrix if called.
+To evaluate different models using saved outputs use the command lines bellow. 
+Parameters:
+- _--pred_ argument is the path to saved output with predictions
+- _--cf_ argument creates confusion matrix if called.
+
 SVM:
 ```
 python3 evaluate/evaluate.py --pred output/SVM/svm_preds.tsv --cf
