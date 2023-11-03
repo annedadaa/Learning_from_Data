@@ -13,7 +13,7 @@ You should run the all scripts from the root directory
 cd Offensive_Language_Identification
 ```
 
-### Models training
+### Training
 
 Scripts for training different models are in the _train_predict_ folder. To run (for example, Language Models) training script, use the command line below:
 ```
@@ -30,7 +30,7 @@ CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py --test_file datas
 
 For more detailed information on training please check [README file in the _train_predict_ folder](https://github.com/annedadaa/Offensive_Language_Identification/blob/main/train_predict/README.md).
 
-### Models evaluation
+### Evaluation
  
 To evaluate different models using saved outputs use the command lines below:
 
