@@ -15,8 +15,4 @@ RoBERTa:
 python3 evaluate/evaluate.py --pred output/LMs/twitter-roberta-base-sentiment-latest_preds.tsv
 ```
 
-**Command line arguments:**
-
-- --test_file: path to test file with labels
-- --preds_file: path to output file with predictions
-- --cf: calculate confusion matrix
+For all the required and optional command line arguments please see [evaluation code](https://github.com/annedadaa/Offensive_Language_Identification/blob/d1ded5ab60bbc45bef3a1312472380c1ef68848d/evaluate/evaluate.py#L13)
