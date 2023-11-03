@@ -1,4 +1,4 @@
-Add more info about training models
+## Training different models
 
 ### Train Naive Bayes/Decision Tree/Random Forest/K-Nearest Neighbors/Support Vector Machine
 
