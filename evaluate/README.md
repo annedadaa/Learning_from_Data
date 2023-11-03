@@ -16,6 +16,7 @@ python3 evaluate/evaluate.py --pred output/LMs/twitter-roberta-base-sentiment-la
 ```
 
 **Command line arguments:**
---test_file: path to test file with labels
---preds_file: path to output file with predictions
---cf: calculate confusion matrix
+
+- --test_file: path to test file with labels
+- --preds_file: path to output file with predictions
+- --cf: calculate confusion matrix
