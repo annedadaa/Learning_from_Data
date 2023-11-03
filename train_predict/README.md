@@ -12,16 +12,15 @@ Run the training script (for example using TD-IDF vectorizer and SVM model)
 python3 train_predict/NB_DT_RT_KNN_SVM.py --model svm --vect tfidf
 ```
 
-Additional Parameters:
-- train_file
-- dev_file
-- test_file
+For all the optional command line arguments please see [the code](https://github.com/annedadaa/Offensive_Language_Identification/edit/main/train_predict/NB_DT_RT_KNN_SVM.py)
 
 ### Train LSTM
 Download pretrained GloVe twitter embeddings and unzip archive
 
 ```
 wget https://nlp.stanford.edu/data/glove.twitter.27B.zip
+```
+```
 unzip glove.twitter.27B.zip
 ```
 Run the training script
