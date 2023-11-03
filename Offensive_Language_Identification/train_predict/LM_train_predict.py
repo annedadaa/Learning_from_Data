@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-""" Exploring binary text classification task using BERT, RoBERTa, DistilBERT, ..."""
+""" Exploring binary text classification task using pretrained BERT, RoBERTa, DistilBERT"""
 
 # Import all necessary libraries.
 import pandas as pd
