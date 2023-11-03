@@ -39,19 +39,16 @@ For more detailed information on training please check [README file in the _trai
  
 To evaluate different models using saved outputs use the command lines below:
 
-Parameters:
-- _--pred_: path to saved output file with predictions
-- _--cf_ : creates confusion matrix
-
 SVM:
 ```
-python3 evaluate/evaluate.py --pred output/SVM/svm_preds.tsv --cf
+python3 evaluate/evaluate.py --pred output/SVM/svm_preds.tsv
 ```
 LSTM:
 ```
-python3 evaluate/evaluate.py --pred output/LSTM/lstm_preds.tsv --cf
+python3 evaluate/evaluate.py --pred output/LSTM/lstm_preds.tsv
 ```
 RoBERTa:
 ```
-python3 evaluate/evaluate.py --pred output/LMs/twitter-roberta-base-sentiment-latest_preds.tsv --cf
+python3 evaluate/evaluate.py --pred output/LMs/twitter-roberta-base-sentiment-latest_preds.tsv
 ```
+For more detailed information on evaluation please check [README file in the _evaluate_ folder](https://github.com/annedadaa/Offensive_Language_Identification/blob/main/evaluate/README.md).
