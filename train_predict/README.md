@@ -13,7 +13,7 @@ Run the training script (for example using TD-IDF vectorizer and SVM model)
 python3 train_predict/NB_DT_RT_KNN_SVM.py --model svm --vect tfidf
 ```
 
-To get predictions on test set run add _test_file_ argument
+To get predictions on test set add _test_file_ argument
 ```
 python3 train_predict/NB_DT_RT_KNN_SVM.py --model svm --vect tfidf --test_file dataset/preprocessed_data/test.tsv
 ```
@@ -33,7 +33,7 @@ Run the training script
 ```
 python3 train_predict/LSTM.py
 ```
-To get predictions on test set run add _test_file_ argument
+To get predictions on test set add _test_file_ argument
 ```
 python3 train_predict/LSTM.py --test_file dataset/preprocessed_data/test.tsv
 
@@ -47,7 +47,7 @@ Run the training script on GPU (for example, with GPU ID=1)
 ```
 CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py
 ```
-To get predictions on test set run add _test_file_ argument
+To get predictions on test set add _test_file_ argument
 
 ```
 CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py --test_file dataset/preprocessed_data/test.tsv
