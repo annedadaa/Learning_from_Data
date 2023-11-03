@@ -28,8 +28,7 @@ To save predictions on test set you should specify path to the test set:
 CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py --test_file dataset/preprocessed_data/test.tsv
 ```
 
-For more detailed information on training please check README file in the _train_predict_ folder.
-[I'm a relative reference to a repository file](../[blob/main/train_predict/README.md])
+For more detailed information on training please check [README file in the _train_predict_ folder](https://github.com/annedadaa/Offensive_Language_Identification/blob/main/train_predict/README.md).
 
 ### Models evaluation
  
