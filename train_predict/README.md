@@ -7,12 +7,18 @@ Download spacy embeddings which are used for text lemmatization
 ```
 python3 -m spacy download en_core_web_sm
 ```
+
 Run the training script (for example using TD-IDF vectorizer and SVM model)
 ```
 python3 train_predict/NB_DT_RT_KNN_SVM.py --model svm --vect tfidf
 ```
 
-For all the optional command line arguments please see [the code](https://github.com/annedadaa/Offensive_Language_Identification/blob/954ab945d65b8383fa3f9ecf654118f0793e71d0/train_predict/NB_DT_RT_KNN_SVM.py#L32)
+To get predictions on test set run add _test_file_ argument
+```
+python3 train_predict/NB_DT_RT_KNN_SVM.py --model svm --vect tfidf --test_file dataset/preprocessed_data/test.tsv
+```
+
+For all the required and optional command line arguments please see [the code](https://github.com/annedadaa/Offensive_Language_Identification/blob/954ab945d65b8383fa3f9ecf654118f0793e71d0/train_predict/NB_DT_RT_KNN_SVM.py#L32)
 
 ### Train LSTM
 Download pretrained GloVe twitter embeddings and unzip archive
@@ -27,28 +33,23 @@ Run the training script
 ```
 python3 train_predict/LSTM.py
 ```
-**Additional command line arguments**
+To get predictions on test set run add _test_file_ argument
+```
+python3 train_predict/LSTM.py --test_file dataset/preprocessed_data/test.tsv
 
-Paths:
-- _train_file_: path to train set (default="dataset/preprocessed_data/train.tsv")
-- _dev_file_: path to dev set (default="dataset/preprocessed_data/dev.tsv")
-- _test_file_: path to test set
-- _embeddings_: path to pretrained embeddings (default="glove.twitter.27B.200d.txt")
-  
-Architecture Parameters:
-- _add_dense_: whether to add Dense layer between Embedding and LSTM layers
-- _bilstm_: whether to use BiLSTM
-  
-Model Hyperparameters:
-- _epochs_: number of epochs
-- _lr_: learning rate
-- _batch_size_: batch size
-- _dropout_: dropout rate
-- _optimizer_: model optimizer
-- _hidden_size_: hidden size of (Bi)LSTM layers
-- _maxlen_: maximum sequence length
-  
-Preprocessing Parameter:
-- _prep_: whether to preprocess the data (it's time consuming)
+```
+
+For all the required and optional command line arguments please see [the code] (link)
 
 ### Train Pretrained Language Models
+Run the training script on GPU (for example, with GPU ID=1)
+
+```
+CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py
+```
+To get predictions on test set run add _test_file_ argument
+
+```
+CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py --test_file dataset/preprocessed_data/test.tsv
+```
+For all the required and optional command line arguments please see [the code] (https://github.com/annedadaa/Offensive_Language_Identification/blob/59cfda15503a9b7ec0817d374525a41a8679495d/train_predict/LanguageModels.py#L18)
