@@ -53,3 +53,4 @@ To get predictions on test set run add _test_file_ argument
 CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py --test_file dataset/preprocessed_data/test.tsv
 ```
 For all the required and optional command line arguments please see [the code] (https://github.com/annedadaa/Offensive_Language_Identification/blob/59cfda15503a9b7ec0817d374525a41a8679495d/train_predict/LanguageModels.py#L18)
+
