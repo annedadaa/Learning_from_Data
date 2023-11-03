@@ -31,25 +31,25 @@ python3 train_predict/LSTM.py
 **Additional command line arguments**
 
 Paths:
-- train_file: path to train set (default="dataset/preprocessed_data/train.tsv")
-- dev_file: path to dev set (default="dataset/preprocessed_data/dev.tsv")
-- test_file: path to test set
-- embeddings: path to pretrained embeddings (default="glove.twitter.27B.200d.txt")
+- _train_file_: path to train set (default="dataset/preprocessed_data/train.tsv")
+- _dev_file_: path to dev set (default="dataset/preprocessed_data/dev.tsv")
+- _test_file_: path to test set
+- _embeddings_: path to pretrained embeddings (default="glove.twitter.27B.200d.txt")
   
 Architecture Parameters:
-- add_dense: whether to add Dense layer between Embedding and LSTM layers
-- bilstm: whether to use BiLSTM
+- _add_dense_: whether to add Dense layer between Embedding and LSTM layers
+- _bilstm_: whether to use BiLSTM
   
 Model Hyperparameters:
-- epochs: number of epochs
-- lr: learning rate
-- batch_size: batch size
-- dropout: dropout rate
-- optimizer: model optimizer
-- hidden_size: hidden size of (Bi)LSTM layers
-- maxlen: maximum sequence length
+- _epochs_: number of epochs
+- _lr_: learning rate
+- _batch_size_: batch size
+- _dropout_: dropout rate
+- _optimizer_: model optimizer
+- _hidden_size_: hidden size of (Bi)LSTM layers
+- _maxlen_: maximum sequence length
   
 Preprocessing Parameter:
-- prep: whether to preprocess the data (it's time consuming)
+- _prep_: whether to preprocess the data (it's time consuming)
 
 ### Train Pretrained Language Models
