@@ -39,7 +39,7 @@ python3 train_predict/LSTM.py --test_file dataset/preprocessed_data/test.tsv
 
 ```
 
-For all the required and optional command line arguments please see [the code] (link)
+For all the required and optional command line arguments please see [the code](https://github.com/annedadaa/Offensive_Language_Identification/blob/948930f986709f641af581781ee8447902198d53/train_predict/LSTM.py#L29)
 
 ### Train Pretrained Language Models
 Run the training script on GPU (for example, with GPU ID=1)
