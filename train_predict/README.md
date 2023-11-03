@@ -35,20 +35,20 @@ Paths:
 - dev_file: path to dev set (default="dataset/preprocessed_data/dev.tsv")
 - test_file: path to test set
 - embeddings: path to pretrained embeddings (default="glove.twitter.27B.200d.txt")
-- 
+  
 Architecture Parameters:
 - add_dense: whether to add Dense layer between Embedding and LSTM layers
 - bilstm: whether to use BiLSTM
-- 
+  
 Model Hyperparameters:
-- epochs
-- lr
-- batch_size
-- dropout
-- optimizer
-- hidden_size
-- maxlen
-
+- epochs: number of epochs
+- lr: learning rate
+- batch_size: batch size
+- dropout: dropout rate
+- optimizer: model optimizer
+- hidden_size: hidden size of (Bi)LSTM layers
+- maxlen: maximum sequence length
+  
 Preprocessing Parameter:
 - prep: whether to preprocess the data (it's time consuming)
 
