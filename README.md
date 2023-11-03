@@ -13,12 +13,22 @@ You should run the all scripts from the root directory
 cd Offensive_Language_Identification
 ```
 
-#### Train models
+#### Models training
 
-Scripts for training different models are in _train_predict_ folder. To run (for example, LMs) training script, use the command line below:
+Scripts for training different models are in the _train_predict_ folder. To run (for example, Language Models) training script, use the command line below:
 ```
-python3 evaluate/evaluate.py --pred output/SVM/svm_preds.tsv --cf
+python3 train_predict/LanguageModels.py
 ```
+Because Language Models are trained on GPU, you have to specify CUDA IDs as follows:
+```
+CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py
+```
+To save predictions on test set you should specify path to the test set:
+```
+CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py --test_file dataset/preprocessed_data/test.tsv
+```
+
+For more detailed information check README file in the _train_predict_ folder.
 
 #### Models evaluation
  
