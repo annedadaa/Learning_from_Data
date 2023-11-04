@@ -62,7 +62,7 @@ To finetune the best model:
 
 Download the best model checkpoint from [Google Drive](https://drive.google.com/file/d/1cxAcadm6C9MJpIErTCqaw5ISdKcvRkBu/view?usp=sharing) and unzip.
 
-Training the model on additional data
+Training the model on additional data:
 ```
 CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py --train_file dataset/additional_data/train.tsv --dev_file dataset/additional_data/dev.tsv --model checkpoint-roberta-best
 ```
