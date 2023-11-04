@@ -5,7 +5,7 @@ Model | Dev F1 macro | Test F1 macro
 --- | --- | --- 
 SVM | 68.7 | 67.5
 BiLSTM | 71.1 | 70.9
-RoBERTa | 79.5 | 82.1
+RoBERTa |** 79.5 | 82.1**
 RoBERTa + add. data | ? | ?
 
 ### To get started
