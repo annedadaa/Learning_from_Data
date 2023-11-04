@@ -51,4 +51,6 @@ RoBERTa:
 ```
 python3 evaluate/evaluate.py --pred output/LMs/twitter-roberta-base-sentiment-latest_preds.tsv
 ```
+The best model checkpoint can be downloaded from [Google Drive](https://drive.google.com/file/d/1cxAcadm6C9MJpIErTCqaw5ISdKcvRkBu/view?usp=sharing).
+
 For more detailed information on evaluation please check [README file](https://github.com/annedadaa/Offensive_Language_Identification/blob/main/evaluate/README.md) in the _evaluate_ folder.
