@@ -56,7 +56,15 @@ For more detailed information on evaluation please check [README file](https://g
 
 ### Training the best model on additional data
 
-The best model checkpoint can be downloaded from [Google Drive](https://drive.google.com/file/d/1cxAcadm6C9MJpIErTCqaw5ISdKcvRkBu/view?usp=sharing). As the additional dataset to finetune the best model, we used [Toxic Tweets Dataset](https://www.kaggle.com/datasets/ashwiniyer176/toxic-tweets-dataset/data). Full dataset can be found in the _dataset_ folder. 
+As the additional dataset to finetune the best model, we used [Toxic Tweets Dataset](https://www.kaggle.com/datasets/ashwiniyer176/toxic-tweets-dataset/data). Train and development parts of additional dataset can be found in the _dataset_ folder. 
+
+To finetune the best model:
+
+Download the best model checkpoint from [Google Drive](https://drive.google.com/file/d/1cxAcadm6C9MJpIErTCqaw5ISdKcvRkBu/view?usp=sharing) and unzip.
+
+```
+
+```
 
 ### Detoxification
 
