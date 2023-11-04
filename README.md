@@ -56,11 +56,7 @@ For more detailed information on evaluation please check [README file](https://g
 
 ### Training the best model on additional data
 
-As the additional dataset to finetune the best model, we used [Toxic Tweets Dataset](https://www.kaggle.com/datasets/ashwiniyer176/toxic-tweets-dataset/data). Train and development parts of additional dataset can be found in the _dataset_ folder. 
-
-To finetune the best model:
-
-Download the best model checkpoint from [Google Drive](https://drive.google.com/file/d/1cxAcadm6C9MJpIErTCqaw5ISdKcvRkBu/view?usp=sharing) and unzip.
+As the additional dataset to finetune the best model, we used [Toxic Tweets Dataset](https://www.kaggle.com/datasets/ashwiniyer176/toxic-tweets-dataset/data). Train and development parts of additional dataset can be found in the _dataset_ folder. Download the best model checkpoint from [Google Drive](https://drive.google.com/file/d/1cxAcadm6C9MJpIErTCqaw5ISdKcvRkBu/view?usp=sharing) and unzip.
 
 Training the model on additional data:
 ```
