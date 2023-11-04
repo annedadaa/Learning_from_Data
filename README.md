@@ -62,9 +62,11 @@ To finetune the best model:
 
 Download the best model checkpoint from [Google Drive](https://drive.google.com/file/d/1cxAcadm6C9MJpIErTCqaw5ISdKcvRkBu/view?usp=sharing) and unzip.
 
+Training the model on additional data
 ```
-
+CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py --train_file dataset/additional_data/train.tsv --dev_file dataset/additional_data/dev.tsv --model checkpoint-roberta-best
 ```
+For more detailed information on training please check [README file](https://github.com/annedadaa/Offensive_Language_Identification/blob/main/train_predict/README.md)  in the _train_predict_ folder.
 
 ### Detoxification
 
