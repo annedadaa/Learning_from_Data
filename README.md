@@ -73,6 +73,7 @@ CUDA_VISIBLE_DEVICES=1 python3 train_predict/LanguageModels.py --train_file data
 For more detailed information on training please check [README file](https://github.com/annedadaa/Offensive_Language_Identification/blob/main/train_predict/README.md)  in the _train_predict_ folder.
 
 ### Detoxification
+To use the detoxification code, you have to download the best model checkpoint from [Google Drive](https://drive.google.com/file/d/1cxAcadm6C9MJpIErTCqaw5ISdKcvRkBu/view?usp=sharing) and unzip.
 
 To detoxify the dataset, use the following command line:
 ```
