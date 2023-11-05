@@ -74,3 +74,12 @@ For more detailed information on training please check [README file](https://git
 
 ### Detoxification
 
+To detoxify the dataset, use the following command line:
+```
+CUDA_VISIBLE_DEVICES=1 python3 detoxification/detoxify.py --detox
+```
+To compute final table reporting the results of detoxification, run the following:
+```
+CUDA_VISIBLE_DEVICES=1 python3 detoxification/detoxify.py
+```
+For more detailed information on training please check [README file]([https://github.com/annedadaa/Offensive_Language_Identification/blob/main/train_predict/README.md](https://github.com/annedadaa/Offensive_Language_Identification/tree/main/detoxification)https://github.com/annedadaa/Offensive_Language_Identification/tree/main/detoxification/README.md) in the _detoxification_ folder.
