@@ -103,7 +103,7 @@ if __name__ == "__main__":
         print("Number of detoxified rows:", len(detoxified_rows))
 
         # Classify whether new detoxified text is still offensive 
-        offensive_detection = pipeline("text-classification", model="train_clf/results/twitter-roberta-base-sentiment-latest/checkpoint-best-79.5")
+        offensive_detection = pipeline("text-classification", model="checkpoint-roberta-best")
         preds = offensive_detection(detoxified_rows['detoxified'].to_list())
         
         preds = [idx_to_label[output['label']] for output in preds]
