@@ -16,7 +16,7 @@ Clone this repository
 git clone https://github.com/annedadaa/Offensive_Language_Identification.git
 ```
 
-You should run the all scripts from the root directory
+You should run all scripts from the root directory
 ```
 cd Offensive_Language_Identification
 ```
