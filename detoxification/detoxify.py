@@ -29,7 +29,6 @@ def read_corpus(corpus_file):
     Function that reads the corpus and gets texts and labels from it.
     Args:
         corpus_file (str): Path to corpus file.
-        preprocessed (bool): Whether tex
 
     Returns:
         documents (List[str]), labels (List[str]): 2 lists of texts and labels respectively.
@@ -48,6 +47,16 @@ def read_corpus(corpus_file):
 
 
 def get_embeddings(sentence, model, tokenizer):
+    """
+    Function computes embeddings of a sentence.
+    Args:
+        sentence (str): sentence.
+        model: model to get embeddings.
+        tokenizer: tokenizer to tokenize sentence.
+
+    Returns:
+        bert_embedding: model embeddings.
+    """
     inputs = tokenizer(sentence, return_tensors="pt", padding=True, truncation=True)
     with torch.no_grad():
         outputs = model(**inputs.to("cuda"))
