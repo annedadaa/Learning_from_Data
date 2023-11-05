@@ -82,4 +82,4 @@ To compute final table reporting the results of detoxification, run the followin
 ```
 CUDA_VISIBLE_DEVICES=1 python3 detoxification/detoxify.py
 ```
-For more detailed information on training please check [README file]([https://github.com/annedadaa/Offensive_Language_Identification/blob/main/train_predict/README.md](https://github.com/annedadaa/Offensive_Language_Identification/tree/main/detoxification)https://github.com/annedadaa/Offensive_Language_Identification/tree/main/detoxification/README.md) in the _detoxification_ folder.
+For more detailed information on detoxification please check [README file]([https://github.com/annedadaa/Offensive_Language_Identification/blob/main/train_predict/README.md](https://github.com/annedadaa/Offensive_Language_Identification/tree/main/detoxification)https://github.com/annedadaa/Offensive_Language_Identification/tree/main/detoxification/README.md) in the _detoxification_ folder.
